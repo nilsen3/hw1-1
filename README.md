@@ -16,7 +16,7 @@ To start working, you need to clone a local copy of your HW1 repo. You can do th
 
 ## Your task
 
-For this assigment you will write two small C++ programs.
+For this assigment you will write two small C++ programs. We've provided skeleton code to get you started in the `src/` subdirectory of this repository, so you needn't start from scratch.
 
 ### `convert.cpp`
 
