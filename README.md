@@ -64,6 +64,8 @@ If your program cannot successfully read three integers, for example because the
     error: Could not read numbers
 </pre>
 
+Note that if the last number has a decimal point, C++ will read up to the decimal point and you won’t get an error. This is okay—it’s the default behavior of C++ iostreams, not a bug in your program.
+
 ## Reference
 
 ### How to exit with an error message
@@ -102,8 +104,7 @@ You can use `cin` as the test in an `if` statement---it will be true if no error
 
 For this assignment, you will be graded on
 
- - whether your code implements the specification (functional
-   correctness), and
+ - whether your code implements the specification (functional correctness), and
 
  - the clarity of your code, good factoring in particular.
 
