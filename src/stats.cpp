@@ -23,4 +23,32 @@ Example interactions:
 */
 
 int main() {
+    cout<<"Enter three integers:\n";
+    int inte1;
+    int inte2;
+    int inte3;
+    cin>>inte1>>inte2>>inte3;
+    if (! cin){
+        simple_error("Could not read the numbers");
+    }
+    double avg;
+    avg=(inte1+inte2+inte3)/3.0;
+    int max=inte1;
+    int min=inte1;
+    if (inte2>max){
+        max=inte2;
+    }
+    if (inte3>max) {
+        max = inte3;
+    }
+    if (inte2<min) {
+        min = inte2;
+    }
+    if (inte3<min) {
+        min = inte3;
+    }
+    cout<<"min:  "<<min<<"\n";
+    cout<<"max:  "<<max<<"\n";
+    cout<<"avg:  "<<avg;
 }
+
